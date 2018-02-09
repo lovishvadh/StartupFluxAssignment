@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { FeedData } from '../collections/data';
 import { Tracker } from 'meteor/tracker';
 import { Modal,Button } from 'react-materialize';
-
+/*
 var dataSet=[{
     _id: '1',
     at:'hogwarts.com',
@@ -30,7 +30,7 @@ var dataSet=[{
     title: 'Ravenclaw for the smartest',
     src: 'https://vignette.wikia.nocookie.net/harrypotter/images/2/29/0.41_Ravenclaw_Crest_Transparent.png/revision/latest?cb=20161020182442',
     description: 'You might belong in Gryffindor Where dwell the brave at heartTheir daring nerve, and chivalry Set Gryffindors apart'
-}];
+}];*/
 const FeedList = (dataSet) => { 
     let ans = dataSet.map((dataList)=>{
             return (<li key={dataList._id} className="feedListLi">
